@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/phpMM.css" type="text/css">
+</head>
+<body>
+	<div id="header"><h1>PHP</h1></div>
+	<div id="example">Пример1.1</div>
+	<div id="content">
+		<h1>Welcome</h1>
+		<p>Наберите имя:</p>
+		<form action="scripts/getFormInfo.php" method="POST">
+		<fieldset>
+			<label for="first_name">Имя:</label>
+			<input type="text" name="first_name" size="20"> <br>
+			<label for="last_name">Фамилия:</label>
+			<input type="text" name="last_name" size="20"> <br>
+			<label for="email">Адрес электронной почты:</label>
+			<input type="text" name="email" size="50" /><br />
+			<label for="facebook_url">URL-адрес в Facebook:</label>
+			<input type="text" name="facebook_url" size="50" /><br />
+			<label for="twitter_handle">Идентификатор в Twitter:</label>
+			<input type="text" name="twitter_handle" size="20">
+		</fieldset>
+		<br>
+		<fieldset class="center">
+			<input type="submit" value="Вступить в клуб">
+			<input type="reset" value="Очистить">
+		</fieldset>
+		</form>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>
